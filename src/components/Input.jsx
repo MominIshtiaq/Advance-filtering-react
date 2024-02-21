@@ -1,5 +1,12 @@
 const Input = () => {
-  return <div>Input</div>;
+  return (
+    <>
+      <label className="sidebar_label_container">
+        <input type="radio" name="test2" />
+        <span className="checkmark"></span>All
+      </label>
+    </>
+  );
 };
 
 export default Input;
