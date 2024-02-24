@@ -1,12 +1,10 @@
 import "./Products.css";
 import Card from "../components/Card";
 
-const Products = () => {
+const Products = ({ result }) => {
   return (
     <>
-      <section className="card_container">
-        <Card />
-      </section>
+      <section className="card_container">{result}</section>
     </>
   );
 };
